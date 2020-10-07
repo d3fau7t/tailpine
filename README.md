@@ -11,9 +11,10 @@ Download the [source code .zip](https://github.com/agonzalezio/tailpine/archive/
 > Just edit the html files and add the `tailwind.css` and `alpine.js` files.
 
 1. `npm install`: install tailwindcss and live-server as devDependencies.
-2. `npm start`: generate a tailwind.css output file and start dev server.
+2. `npm start`: generate a new tailwind.css without purging and start dev server.
 3. `npm run dev`: start development server with hot reloading.
 4. `npm run build`: purge and generate a production tailwind.css
+5. `npm run generte`: generate a new tailwind.css without purging.
 
 ## Licence
 
