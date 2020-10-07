@@ -23,6 +23,15 @@ See the [LICENCE](https://github.com/agonzalezio/tailpine/blob/main/LICENSE) fil
 
 To contribute please follow these steps:
 
+**Open an issue**
+1. Go to issue tab and open a new one.
+2. Describe briefly and concise what is the issue about.
+3. (optional) If it's a bug related issue, please include the steps to reproduce it.
+4. Describe what's the expected behavior or how it should be working properly.
+5. If it's applicable, please add screenshots to your issue.
+6. Add the corresponding label for your issue.
+
+**Open a pull request**
 1. Clone this repo into your GitHub account.
 2. Make your changes.
 3. Commit your changes with good commit messages.
