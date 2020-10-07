@@ -5,10 +5,10 @@
   "author": "Freddy Gonzalez <7684330+agonzlezr@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run generate && npm run dev",
-    "build": "tailwindcss build -o css/tailwind.css -c tailwind.config.js",
+    "start": "npm run dev",
+    "build": "tailwindcss build -o css/tailwind.css -c tailwind-config.js",
     "generate": "tailwindcss build -o css/tailwind.css",
-    "dev": "live-server ."
+    "dev": "npm run generate && live-server ."
   },
   "devDependencies": {
     "live-server": "^1.2.1",
