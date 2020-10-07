@@ -5,9 +5,9 @@
   "author": "Freddy Gonzalez <7684330+agonzlezr@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tailwindcss build -o assets/css/tailwind.css && npm run dev",
+    "start": "tailwindcss build -o css/tailwind.css && npm run dev",
     "dev": "live-server .",
-    "build": "tailwindcss build -o assets/css/tailwind.css -c tailwind.config.js"
+    "build": "tailwindcss build -o css/tailwind.css -c tailwind.config.js"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
