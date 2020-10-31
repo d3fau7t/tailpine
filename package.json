@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/*.html -p 80",
-    "build": "parcel build src/*.html --no-source-maps"
+    "build": "parcel build src/*.html src/robots.txt --no-source-maps"
   },
   "dependencies": {
     "alpinejs": "^2.7.3",
