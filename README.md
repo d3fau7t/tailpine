@@ -5,16 +5,17 @@ _A quick-start HTML5 template with Tailwind + Alpine included_
 
 Download the [source code .zip](https://github.com/agonzalezio/tailpine/archive/main.zip) and extract it into your project's folder or clone this project `git clone https://github.com/agonzalezio/tailpine`; you can also [use this template](https://github.com/agonzalezio/tailpine/generate) to create a repo on your GitHub.
 
-## Use it
+## Usage
 
-> You can use this template without installing any dependency or running commands.
-> Just edit the html files and add the `tailwind.css` and `alpine.js` files.
+You can use this template without installing any dependency or running commands. Just edit the html files located in the `public/` directory.
 
-1. `npm install`: install tailwindcss and live-server as devDependencies.
-2. `npm start`: generate a new tailwind.css without purging and start dev server.
-3. `npm run dev`: start development server with hot reloading.
-4. `npm run build`: purge and generate a production tailwind.css
-5. `npm run generte`: generate a new tailwind.css without purging.
+Alternatively you can use **parcel-bundler** to edit and compile a production ready bundle with source minification and CSS purging.
+
+1. Clone and install required dependencies with `npm install`.
+2. Run `npm start` to create a development server with parcel and navigate to _localhost/index.html_ to view your site.
+3. Create and edit as many HTML files as you need and make sure to link them to the css/libs/tailwind.css and js/vendor/alpine.js files.
+4. Run `npm run build` to create a production bundle.
+5. Upload the generated `dist/` folder to your hosting provider.
 
 ## Licence
 
